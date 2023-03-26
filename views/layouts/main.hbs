@@ -1,0 +1,35 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Site</title>
+    <link href="/css/main.scss" rel="stylesheet">             
+   <!-- <link href="css/header1.css" rel="stylesheet">  -->   
+    <script src="js/main.js"></script>       
+</head>     
+
+
+<body onresize="resized()">               
+    <div class="main-container"> 
+      <h4>inside VP4/views/layouts/main.hbs  layout</h4>                                      
+     {{!-- {{> header1 }}   --}}                
+      <div class="menu_spacer" id="menu_spacer">          
+        {{{ body }}}             
+    {{!--    {{> footer }}   --}}            
+      </div class="menu_spacer" id="menu_spacer">    
+    </div>         
+<script>  /* prevents drop down menu from returning when reverting to narrow screen  */              
+function resized(){if (window.innerWidth  > 768)      
+                    {document.getElementById("nav_toggle1").checked = false;   
+                     /*   var v1=document.getElementById("nav1"); v1.style.display = 'none'; */ }}                                      
+</script>         
+</body>    
+
+</html>
+
+
+
