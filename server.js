@@ -36,7 +36,7 @@ app.get("/", (_, res) => res.send("in / of  express!"));
 
 app.get('/about',(req,res) => {
    //res.render('c:\\web\\a4\\vp4\\views\\about',{titlex:'about page title'}); 
-   res.render('\about',{titlex:'about   context  page titlex'});  
+   res.render('\about',{titlex:'about   ccccontext  page titlex'});  
   });  
 
   app.get('/extra',(req,res) => {
