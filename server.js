@@ -36,12 +36,12 @@ app.get("/", (_, res) => res.send("in / of  express!"));
 
 app.get('/about',(req,res) => {
    //res.render('c:\\web\\a4\\vp4\\views\\about',{titlex:'about page title'}); 
-   res.render('\about',{titlex:'about   ccccontext  page titlex'});  
+   res.render('\about',{titlex:'about   cccontext  page titlex'});  
   });  
 
   app.get('/extra',(req,res) => {
     //res.render('c:\\web\\a4\\vp4\\views\\about',{titlex:'about page title'}); 
-    res.render('\extra',{titlex:'extra context  page titlex'});  
+    res.render('\extra',{titlex:'extra context    page titlex'});  
    });  
  
 app.get("/message", (_, res) => res.send("in message Hello from express!"));
