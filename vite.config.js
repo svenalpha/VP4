@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     base: '/VP4/',
+    
     plugins: [
       handlebars({
         context: {
@@ -11,6 +12,7 @@ export default defineConfig({
         },
       }),
     ],
+    build:{outDir: '../dist'}
   });
 
 
