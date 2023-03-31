@@ -28,7 +28,7 @@ app.engine('hbs',engine({
   })); 
 
 //   do send to render  
-app.get("/", (_, res) => res.send("in / of  express!"));
+app.get("/", (_, res) => res.send("in / of   express!"));
 //app.get('/',(req,res) => {
 //    res.render('/',{titlex:' about page title'});   
 //  }); 
@@ -36,7 +36,7 @@ app.get("/", (_, res) => res.send("in / of  express!"));
 
 app.get('/about',(req,res) => {
    //res.render('c:\\web\\a4\\vp4\\views\\about',{titlex:'about page title'}); 
-   res.render('\about',{titlex:'about     cccontext  page titlex'});  
+   res.render('\about',{titlex:'about      cccontext  page titlex'});  
   });  
 
   app.get('/extra',(req,res) => {
