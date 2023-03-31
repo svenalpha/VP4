@@ -1,3 +1,3 @@
 
-function Func1()  {alert("clickkkkedhhhii");}
+function Func1()  {alert("clickkkXXXXXhhii");}
 
