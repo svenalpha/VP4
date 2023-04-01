@@ -6,7 +6,7 @@ import handlebars from "vite-plugin-handlebars";
 // import express-handlebars from "express-handlebars";
 
 const app = express();              //  5173                   4173         
-    ViteExpress.config({ mode: "production"}); //    test"}) // development,  production, test     
+//    ViteExpress.config({ mode: "production"}); //    test"}) // development,  production, test     
  //  ViteExpress.config({ mode: "test"});    
 // command in terminal:       NODE_ENV=production node server      .ts/js  // for deployment version
 import pkg from "vite-plugin-handlebars"; 
