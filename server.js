@@ -13,7 +13,7 @@ import pkg from "vite-plugin-handlebars";
 
 
 import {engine} from "express-handlebars";
-app.use(express.static('public'));
+//app.use(express.static('public'));
 app.set('view engine','hbs');  
 //app.set('views', path.join(__dirname, 'views'));
 //app.set('public', path.join(__dirname, '/public'));
