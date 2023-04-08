@@ -1,7 +1,7 @@
 
 
 import express from "express";
-import { resolve } from 'path';
+//import { resolve } from 'path';
 import ViteExpress from "vite-express";
 import handlebars from "vite-plugin-handlebars";
 // import express-handlebars from "express-handlebars";
@@ -15,7 +15,7 @@ import pkg from "vite-plugin-handlebars";
 
 import {engine} from "express-handlebars";
 //app.use(express.static('public'));
-app.use(express.static(resolve('./dist')));
+//app.use(express.static(resolve('./dist')));
 app.set('view engine','hbs');  
 //app.set('views', path.join(__dirname, 'views'));
 //app.set('public', path.join(__dirname, '/public'));
