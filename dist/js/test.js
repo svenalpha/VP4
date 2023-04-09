@@ -1,3 +1,3 @@
 
-function Func1()  {alert("clickk_pink-hhii");}
+function Func1()  {alert("clickkpinkhii");}
 
