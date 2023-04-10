@@ -6,7 +6,7 @@
 
 import handlebars from 'vite-plugin-handlebars';
 //import { resolve } from 'path';
-//import path from 'path';
+import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -19,7 +19,7 @@ export default defineConfig({
         },
       }),
     ],
-   build:{outDir: 'dist'}
+   build:{outDir: path.join(__dirname,'dist')}
   });
 
 
