@@ -19,7 +19,7 @@ export default defineConfig({
         },
       }),
     ],
-   build:{outDir: path.join(__dirname,'dist')}
+   build:{outDir: path.join(__dirname,'VP4/dist')}
   });
 
 
