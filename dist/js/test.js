@@ -1,3 +1,3 @@
 
-function Func1()  {alert("clickk_steelblue_hii");}
+function Func1()  {alert("clickk_green_dhhhii");}
 
