@@ -4,9 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "//dev": "echo '  comment here '",
     "dev": "vite",
-    "build": "NODE_ENV=production  vite build",
-    "preview": "vite preview"
+    "//build": "echo '  NODE_ENV=production  comment here '",
+    "build": " NODE_ENV=production   vite build",
+    "//preview": "echo 'to test build version, run node server preview leaving line ViteExpress.config({ mode: 'production'});'",
+    "preview": "NODE_ENV=production  vite preview"
   },
   "devDependencies": {
     "vite": "^4.2.0"
